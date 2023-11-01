@@ -1,0 +1,143 @@
+body {
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--text);
+    font-family: var(--font-family);
+    width: 100vw;
+    background-color: var(--body);
+    overflow: hidden overlay;
+    @include media-breakpoint-down(md) {
+      &.header-open {
+        overflow: hidden;
+      }
+    }
+  }
+  
+  p {
+    margin-bottom: 0;
+    line-height: 1.5;
+    & + p {
+      margin-top: 1rem;
+    }
+  
+    & + ul {
+      margin: 2rem 0;
+    }
+  }
+  
+  li {
+    line-height: 1.5;
+  }
+  
+  /* TÍTULOS */
+  h1,
+  .h1 {
+    @include media-breakpoint-up(lg) {
+      font-size: 2.75rem; // 44px
+    }
+  
+    @include media-breakpoint-only(md) {
+      font-size: 2.25rem; // 36px
+    }
+  
+    @include media-breakpoint-down(sm) {
+      font-size: 2rem; // 32px
+    }
+  }
+  
+  h2,
+  .h2 {
+    font-size: 2.25rem; // 36px
+  
+    @include media-breakpoint-down(sm) {
+      font-size: 2rem; // 32px
+    }
+  }
+  
+  h3,
+  .h3 {
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem; // 32px
+      line-height: 1.25;
+    }
+  
+    @include media-breakpoint-only(md) {
+      font-size: 1.75rem; // 28px
+      line-height: 36px;
+    }
+  
+    @include media-breakpoint-down(sm) {
+      font-size: 1.5rem; // 24px
+      line-height: 32px;
+    }
+  }
+  
+  h4,
+  .h4 {
+    font-size: 1.75rem; // 28px
+    @include media-breakpoint-down(sm) {
+      font-size: 1.125rem; // 18px
+      line-height: 25px;
+    }
+  }
+  
+  h5,
+  .h5 {
+    font-size: 1.5rem; // 24px
+  }
+  
+  h6,
+  .h6 {
+    font-size: 1.25rem; // 20px
+  }
+  
+  .p1 {
+    font-size: 1.125rem; // 18px
+    line-height: 26px;
+  }
+  
+  .text-primary {
+    color: var(--primary) !important;
+  }
+  
+  .text-secondary {
+    color: var(--secondary) !important;
+  }
+  
+  .text-default {
+    color: var(--text) !important;
+  }
+  
+  .text-2 {
+    color: var(--text-1);
+  }
+
+  .text-white {
+    color: var(--white);
+  }
+
+  .g1-text {
+    color: var(--g1);
+    font-weight: var(--font-weight-bold);
+  } 
+
+  .ge-text {
+    color: var(--ge);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .globo-text {
+    color: var(--globo);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .gshow-text {
+    color: var(--gshow);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .globoplay-text {
+    color: var(--globoplay);
+    font-weight: var(--font-weight-bold);
+  }
+

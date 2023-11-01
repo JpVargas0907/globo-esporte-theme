@@ -1,0 +1,48 @@
+:root {
+    // GREEN COLORS
+
+    --green-100: #06AA48;
+    --green-200: #05913D;
+    --green-300: #05903D;
+
+    // NEUTRAL COLORS
+
+    --gray-100: #666666;
+    --gray-200: #60555A;
+    --gray-300: #333333;
+
+    --white: #ffffff;
+    --neutral: #F3F3F3;
+    --neutral-2: #fafafa;
+
+    /* TEXT COLORS */
+
+    --text: #333333;
+    --text-2: #555555;
+
+    /* UTILIZAÇÃO */
+
+    --primary: var(--green-100);
+    --secondary: var(--green-200);
+    --text: var(var(--gray-300));
+
+    /* LOGOS COLORS */
+
+    --g1: #C4170C;
+    --ge: #06AA48;
+    --gshow: #ff6700;
+    --globo: #5AA2EB;
+    --globoplay: #EE2033;
+
+    /* FONTES */
+    --font-family: "open-sans", sans-serif;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+
+    /* CONTAINER */
+    --container-width: 1360px;
+}
